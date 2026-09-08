@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/trading_firm/__init__.py
+src/trading_firm/__main__.py
+src/trading_firm/agents.py
+src/trading_firm/cli.py
+src/trading_firm/config.py
+src/trading_firm/data.py
+src/trading_firm/llm.py
+src/trading_firm/models.py
+src/trading_firm/orchestrator.py
+src/trading_firm_cli.egg-info/PKG-INFO
+src/trading_firm_cli.egg-info/SOURCES.txt
+src/trading_firm_cli.egg-info/dependency_links.txt
+src/trading_firm_cli.egg-info/entry_points.txt
+src/trading_firm_cli.egg-info/requires.txt
+src/trading_firm_cli.egg-info/top_level.txt

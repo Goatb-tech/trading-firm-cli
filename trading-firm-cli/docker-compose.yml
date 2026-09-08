@@ -1,0 +1,10 @@
+services:
+  trading-firm:
+    build:
+      context: .
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ["trading-firm", "AAPL", "--mock"]

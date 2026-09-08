@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trading-firm-cli"
+version = "0.1.0"
+description = "Command-line trading framework powered by collaborating AI agents"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "feedparser>=6.0.11",
+  "litellm>=1.67.2",
+  "pandas>=2.2.3",
+  "python-dotenv>=1.0.1",
+  "requests>=2.32.3",
+  "vaderSentiment>=3.3.2",
+  "yfinance>=0.2.54",
+]
+
+[project.scripts]
+trading-firm = "trading_firm.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
